@@ -1,6 +1,6 @@
 {
-  "nome": "João Silva",
-  "idade": 32,
+  "nome": "João Oliveira",
+  "idade": 25,
   "profissao": "Analista de Sistemas",
   "renda_mensal": 5000.00,
   "perfil_investidor": "moderado",
@@ -15,9 +15,9 @@
       "prazo": "2026-06"
     },
     {
-      "meta": "Entrada do apartamento",
-      "valor_necessario": 50000.00,
-      "prazo": "2027-12"
+      "meta": "Comprar um carro",
+      "valor_necessario": 30000.00,
+      "prazo": "2028-11"
     }
   ]
 }
