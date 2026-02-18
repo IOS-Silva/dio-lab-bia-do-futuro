@@ -1,31 +1,33 @@
-# Código da Aplicação
+# Passo a Passo de Execução - Isa IA
 
-Esta pasta contém o código do seu agente financeiro.
+## Setup do Ollama
+```bash
+# Instalar o Ollama:
+Acesse https://ollama.com e instale no seu sistema
 
-## Estrutura Sugerida
+# Baixar o modelo usado no projeto:
+ollama pull gemma3:4b
 
+# Testar se o modelo está funcionando:
+ollama run gemma3:4b
 ```
-src/
-├── app.py              # Aplicação principal (Streamlit/Gradio)
-├── agente.py           # Lógica do agente
-├── config.py           # Configurações (API keys, etc.)
-└── requirements.txt    # Dependências
+## Código Completo
 ```
-
-## Exemplo de requirements.txt
-
+Todo o código-fonte esta localizado no arquivo 'app.py'.
 ```
-streamlit
-openai
-python-dotenv
-```
-
 ## Como Rodar
 
 ```bash
-# Instalar dependências
-pip install -r requirements.txt
+# 1 Instalar as dependências do projeto
+pip install streamlit pandas requests
 
-# Rodar a aplicação
-streamlit run app.py
+# 2️ Iniciar o servidor do Ollama
+# (Certifique-se de que o Ollama está instalado)
+ollama serve
+
+# 3️ Em outro terminal, garantir que o modelo esteja disponível
+ollama pull gemma3:4b
+
+# 4️ Executar a aplicação Streamlit
+streamlit  run .\src\app.py
 ```
