@@ -31,3 +31,9 @@ ollama pull gemma3:4b
 # 4️ Executar a aplicação Streamlit
 streamlit  run .\src\app.py
 ```
+
+## Evidência de Execução
+<img width="1627" height="868" alt="image" src="https://github.com/user-attachments/assets/8349367b-dc8f-4f46-8d5d-e9fa9fc2e261" />
+
+
+
